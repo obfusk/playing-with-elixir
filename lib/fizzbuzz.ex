@@ -9,7 +9,8 @@ defmodule FizzBuzz do
   ## Examples
 
   iex> Enum.map(1..16, &FizzBuzz.fizzbuzz/1)
-  [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz", 16]
+  [ 1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz",
+    13, 14, "FizzBuzz", 16 ]
 
   """
   def fizzbuzz n do
