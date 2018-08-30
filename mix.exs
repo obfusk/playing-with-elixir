@@ -3,7 +3,7 @@ defmodule FizzBuzz.MixProject do
 
   def project do
     [
-      app:              :fizzbuzz,
+      app:              :fizzbuzz,  # TODO
       version:          "0.0.1",
       elixir:           "~> 1.6",
       start_permanent:  Mix.env() == :prod,
